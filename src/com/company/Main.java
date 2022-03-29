@@ -17,3 +17,14 @@ public class Main {
         System.out.println(type6);
     }
 }
+////Task2
+class Task2 {
+    public static void main(String[] args) {
+        float boxer1 = 78.2F;
+        float boxer2 = 82.7F;
+        float sumWeight = boxer1 + boxer2;
+        float diffWeight = boxer2 - boxer1;
+        System.out.println("Общий вес бойцов " + sumWeight + " кг.");
+        System.out.println("Разница между весами бойцов " + diffWeight + " кг.");
+    }
+}
