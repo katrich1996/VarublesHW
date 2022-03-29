@@ -28,3 +28,9 @@ class Task2 {
         System.out.println("Разница между весами бойцов " + diffWeight + " кг.");
     }
 }
+////Task3
+class Task3 {
+    public static void main(String[] args) {
+
+    }
+}
