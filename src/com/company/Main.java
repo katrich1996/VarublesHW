@@ -31,6 +31,14 @@ class Task2 {
 ////Task3
 class Task3 {
     public static void main(String[] args) {
+int banana = 80;
+int milk = 105;
+int iceCream = 100;
+int egg = 70;
+float totalWeight = banana*5 + milk*2 + iceCream*2 + egg*4;
+float totalKilo = totalWeight/1000;
+        System.out.println("Общий вес в граммах " + totalWeight + " г.");
+        System.out.println("Общий вес в килограммах " + totalKilo + " кг.");
 
     }
 }
