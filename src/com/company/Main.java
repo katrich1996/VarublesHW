@@ -42,3 +42,15 @@ float totalKilo = totalWeight/1000;
 
     }
 }
+////Task4
+class Task4 {
+    public static void main(String[] args) {
+        int loseWeight = 7000;
+        int days1 = loseWeight / 500;
+        int days2 = loseWeight / 250;
+        int daysAvg = (days1 + days2) / 2;
+        System.out.println("Уйдет " + days1 + " дней, если спортсмен будет терять по 500 г.");
+        System.out.println("Уйдет " + days2 + " дней, если спортсмен будет терять по 250 г.");
+        System.out.println(daysAvg + " дней уйдет в среднем");
+    }
+}
