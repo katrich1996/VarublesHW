@@ -54,3 +54,21 @@ class Task4 {
         System.out.println(daysAvg + " дней уйдет в среднем");
     }
 }
+////Task5
+class Task5 {
+    public static void main(String[] args) {
+int MashaSalary = 67760;
+int DenisSalary = 83690;
+int KristinaSalary = 76230;
+int increaseMashaSalary = 67760/100*10;
+int increaseDenisSalary = 83690/100*10;
+int increaseKristinaSalary = 76230/100*10;
+int newMashaSalary = increaseMashaSalary+MashaSalary;
+int newDenisSalary = DenisSalary+increaseDenisSalary;
+int newKristinaSalary = KristinaSalary+increaseKristinaSalary;
+        System.out.println("Маша теперь получает "+newMashaSalary+" рублей. Годовой доход вырос на "+increaseMashaSalary+ " рублей.");
+        System.out.println("Денис теперь получает "+newDenisSalary+" рублей. Годовой доход вырос на "+increaseDenisSalary+ " рублей.");
+        System.out.println("Кристина теперь получает "+newKristinaSalary+" рублей. Годовой доход вырос на "+increaseKristinaSalary+ " рублей.");
+
+    }
+}
